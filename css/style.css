@@ -1,0 +1,298 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+	font-family: "Comfortaa";
+	src: url('../fonts/Comfortaa/Comfortaa-Medium.woff2') format('woff2'), url('../fonts/Comfortaa/Comfortaa-Medium.woff') format('woff');
+}
+@font-face {
+	font-family: "Comfortaa Light";
+	src: url('../fonts/Comfortaa/Comfortaa-Light.woff2') format('woff2'), url('../fonts/Comfortaa/Comfortaa-Light.woff') format('woff');
+}
+
+/* ==================================================================== */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ==================================================================== */
+
+/* Общие стили*/
+body {
+	font-family: "Caveat", sans-serif;
+	font-weight: 400;
+	font-size: 23px;
+	color: rgb(26, 149, 165);
+	line-height: 1.1;
+}
+.content {
+	max-width: 1150px;
+	margin: 0 auto ;
+}
+header {
+	text-align: center;
+}
+h1 {
+	font-family: "Comfortaa", sans-serif;
+	font-size: 35px;
+	color: rgb(255, 0, 0);
+	margin: 20px 0px;
+}
+h2 {
+	font-family: "Comfortaa Light", sans-serif;
+	font-size: 24px;
+	color: rgb(1, 69, 255);
+	text-shadow: 2px 2px 3px rgb(0, 81, 255);
+	text-transform: lowercase;
+	padding: 0px 0px 0px 10px;
+	margin: 0px 0px 10px 0px;
+}
+
+img {
+	margin: 0px 0px 7px 0px;
+}
+.img {
+	font-family: "Press Start 2P", sans-serif;
+	font-size: 10px;
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+
+/* меню */
+
+.menu li {
+	font-family: "Caveat", sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	margin: 0px 12px 40px 0px;
+	color: rgb(0, 68, 255);
+	text-decoration: underline;
+}
+
+.link {
+	color: rgb(116, 178, 248);
+}
+
+/* Контент */
+
+.introduction {
+	font-size: 25px;
+}
+.introduction-text {
+	margin: 0px 0px 20px 0px;
+}
+
+/* История проблемы мусора */
+.story {
+	padding: 0px 230px;
+}
+.story-text {
+	word-spacing: 14px;
+	margin: 0px 0px 20px 0px;
+}
+.mark {
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+.span-text {
+	text-shadow: 4px 5px 3px #000;
+	margin: 0px 0px 30px 0px;
+}
+span.century{
+	letter-spacing: 5px;
+	color: rgb(186, 12, 192);
+	text-shadow: none;
+}
+
+/* Влияние мусора на экологию */
+.influence {
+	max-width: 630px;
+	text-align: right;
+	margin: 0px 0px 30px 0px;
+}
+.influence-scroll {
+	max-height: 250px;
+	overflow: auto;
+}
+.influence p {
+	margin: 0px 0px 10px 0px;
+}
+
+.influence mark {
+	text-decoration: line-through;
+	color: rgb(255, 0, 0);
+}
+
+/* Виды отходов */
+.kinds {
+	margin: 0px 0px 28px 0px;
+}
+.kinds-paragraph{
+	margin: 0px 0px 4px 0px;
+}
+.kinds-list {
+	padding: 0px 530px 0px 30px;
+	font-size: 20px;
+	color: rgb(64, 151, 14);
+}
+.kind {
+	margin: 0px 0px 5px 0px;
+}
+.kinds-mark {
+	display: block;
+	max-width: 568px;
+	margin: 0 auto;
+}
+
+/* Сроки разложения */
+.timing {
+	margin: 0px 0px 20px 0px;
+}
+.timing-paragraph {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 10px;
+	line-height: 0.8;
+	font-weight: 700;
+}
+.types-waste {
+	color: rgb(121, 16, 16);
+	padding: 0px 0px 0px 350px;
+}
+.timing-list {
+	color: rgb(158, 132, 16);
+	overflow:scroll;
+	max-height: 140px;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+/* Проблемы, связанные с отходами */
+.problems {
+	text-align: right;
+}
+.problems-paragraph {
+	width: 400px;
+	margin: 0px 0px 20px 800px;
+}
+.problems-img{
+	max-width: 628px;
+	margin: -170px 0px 0px 0px;
+	padding: 0px 0px 0px 170px;
+}
+.problems-img-paragraph{
+	font-family: "Press Start 2P", sans-serif;
+	font-size: 10px;
+	width: 628px;
+	text-align: center;
+	margin: 0px 0px 43px 0px;
+}
+
+/* Глобальные проблемы */
+h3 {
+	font-family: "Comfortaa Light", sans-serif;
+	color: rgb(0, 26, 255);
+	text-transform: lowercase;
+	text-shadow: 1px 1px 3px rgb(255, 0, 0);
+	margin: 0px 0px 17px 0px;
+}
+.global p {
+	margin: 0px 0px 20px 0px;
+}
+.global-paragraph {
+	max-width: 700px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 15px 0px;
+	line-height: 0.7;
+	
+}
+.global ol {
+	padding: 0px 0px 0px 40px;
+	margin: 0px 0px 50px 0px;
+	font-size: 21px;
+	line-height: 0.8;
+	max-width: 400px;
+	max-height: 50px;
+	overflow: auto;
+}
+.global-img {
+	margin: -150px 0px 0px 680px;
+	width: 628px;
+}
+.global-mark {
+	max-width: 380px;
+	padding: 0px 0px 0px 60px;
+}
+
+/* Пути решения проблем */
+.path-title {
+	margin: 0px 0px 40px 0px;
+}
+.path-paragraph {
+	max-width: 700px;
+	line-height: 0.8;
+	color: rgb(99, 3, 3);
+}
+.path-title ul {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 20px;
+	letter-spacing: 5px;
+	color: #000;
+}
+.path-text {
+	max-width: 300px;
+	max-height: 200px;
+	overflow: auto;
+	margin: 0 auto;
+	line-height: 0.8;
+	color: rgb(235, 146, 14);
+}
+.path-factory {
+	padding: 25px;
+	color: rgb(255, 0, 242);
+	text-align-last: left;
+	
+}
+.img-factory {
+	margin: -50px 0px 0px 600px;
+}
+.img-burn {
+	font-family: "Press Start 2P", sans-serif;
+	font-size: 10px;
+	text-align: center;
+	max-width: 500px;
+}
+.begining-link {
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+}
+
+/* фигма */
+.figma {
+	font-family: "Comfortaa", sans-serif;
+	font-size: 60px;
+	color: rgb(33, 172, 15);
+	font-weight: 900;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0px 0px 30px 0px;
+}
+
+/* Подвал */
+.footer {
+	margin: 0px 0px 20px 0px;
+}
+.footer ul li {
+	display: inline-block;
+}
+.footer-list {
+	padding: 0px 10px;
+	letter-spacing: 10px;
+	color: #000;
+	font-weight: 900;
+}
+
